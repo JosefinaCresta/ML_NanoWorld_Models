@@ -23,7 +23,7 @@ Se entrenan 12 modelos de regresión, de los cuales se seleccionan los mejores 3
 
 ---
 ---
-### En **project_resume_1**
+### En [project_resume_1](https://github.com/JosefinaCresta/ML_NanoWorld_Models/blob/master/src/project_resume_1.ipynb)
 
 * Carga base de datos de 185 columnas con información estructural, topologica y energetica de 4000 nanoparticulas de oro.
 * Limpieza de datos
@@ -51,7 +51,7 @@ Se entrenan 12 modelos de regresión, de los cuales se seleccionan los mejores 3
     * SVR
 
 
-### En **project_resume_2**
+### En [project_resume_1](https://github.com/JosefinaCresta/ML_NanoWorld_Models/blob/master/src/project_resume_2.ipynb)
 Se realizan predicciónes con la data de evaluación y se calculan las métricas de los mejores modelos de regresión para cada grupo de información. 
 
 Las metricas utilizadas para la selección fueron la raiz cuadratica media del error (RSME) y el coeficiente de determinación [R2](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html?highlight=r2#sklearn.metrics.r2_score). 
