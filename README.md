@@ -59,5 +59,7 @@ Las metricas utilizadas para la selección fueron la raiz cuadratica media del e
 Finalmene se escojen los 3 mejores modelos, se guardan junto con su información para su posterior productivización. 
 
 
+### En [resumen_sub_db_1.](https://github.com/JosefinaCresta/ML_NanoWorld_Models/blob/master/src/resumen_sub_db_1.ipynb)
 
+Se trabaja solo con un subconjunto de datos, los cuales hacen referencia a las características superficiales de las nanoparticulas. Además la variable de predicción en este caso es la energía total de la nanoparticula. Esto re realiza ya que dichas caracteristicas son las más medidas sobre nanoparticulas metalicas, y se suelen realizar experimentos de calculo de energía potencial de la particula con esta información.  Se entrenan los modelos de regresión y finalmente se elige el mejor basandose en la metrica RSME. Este resulta ser en este caso el `GradientBoostingRegressor`
 
