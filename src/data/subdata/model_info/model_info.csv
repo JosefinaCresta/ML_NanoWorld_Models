@@ -1,0 +1,12 @@
+model_name , hyper_parametros, best_score, R2,  MAE, MSE, RMSE, MAPE
+GradientBoostingRegressor(),"{'alpha': 0.9, 'learning_rate': 0.1, 'loss': 'squared_error', 'max_depth': 3, 'min_samples_split': 2, 'n_estimators': 500}",0.9936,0.9945,542.3746,1044424.0138,1021.9707,0.0431
+DecisionTreeRegressor(),"{'max_depth': 5, 'max_features': 'auto', 'max_leaf_nodes': None, 'min_samples_leaf': 1, 'min_weight_fraction_leaf': 0.1, 'splitter': 'best'}",0.9295,0.9475,1873.896,9946718.1924,3153.8418,0.1709
+BaggingRegressor(),"{'bootstrap': True, 'max_features': 6, 'max_samples': 1.0, 'n_estimators': 100}",0.9903,0.992,659.2675,1513063.1689,1230.0663,0.0527
+Lasso(),"{'alpha': 1.0, 'copy_X': True, 'fit_intercept': True, 'max_iter': 100, 'positive': False, 'precompute': True, 'selection': 'cyclic', 'tol': 0.01, 'warm_start': True}",0.9613,0.9625,1789.8026,7107958.7657,2666.0755,0.2881
+LinearRegression(),"{'copy_X': True, 'fit_intercept': True}",0.9613,0.9625,1789.1292,7103741.3911,2665.2845,0.2879
+RandomForestRegressor(),"{'bootstrap': True, 'max_depth': 100, 'min_samples_leaf': 1, 'n_estimators': 500, 'random_state': None}",0.9916,0.9933,568.4432,1265528.458,1124.9571,0.0406
+KNeighborsRegressor(),"{'algorithm': 'auto', 'leaf_size': 2, 'n_neighbors': 5}",0.9772,0.9835,936.0581,3116923.3723,1765.4811,0.0877
+AdaBoostRegressor(),"{'learning_rate': 1.0, 'loss': 'square', 'n_estimators': 100}",0.9794,0.98,1426.5925,3785635.0665,1945.6709,0.2609
+Ridge(),"{'alpha': 0.5, 'fit_intercept': True, 'max_iter': 100, 'random_state': 0, 'solver': 'svd'}",0.9613,0.9625,1788.8466,7103801.7135,2665.2958,0.2878
+ElasticNet(),"{'alpha': 0.01, 'copy_X': True, 'fit_intercept': True, 'l1_ratio': 0.5, 'max_iter': 100, 'precompute': True, 'random_state': None, 'tol': 0.01}",0.9612,0.9624,1782.6515,7121682.2637,2668.648,0.2836
+KernelRidge(),"{'alpha': 0.1, 'degree': 2, 'gamma': 0.1, 'kernel': 'polynomial'}",0.9896,0.9895,794.4152,1993410.5883,1411.8819,0.0786

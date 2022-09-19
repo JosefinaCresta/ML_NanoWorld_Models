@@ -1,0 +1,27 @@
+model_name , time
+LinearRegression,1
+LinearRegression,0
+LinearRegression,0
+Ridge,0
+Lasso,2
+ElasticNet,3
+KernelRidge,13
+DecisionTreeRegressor,24
+LinearRegression,1
+Ridge,0
+Lasso,2
+LinearRegression,0
+Ridge,0
+Lasso,2
+ElasticNet,3
+KernelRidge,14
+DecisionTreeRegressor,25
+RandomForestRegressor,504
+KNeighborsRegressor,0
+GradientBoostingRegressor,74
+AdaBoostRegressor,55
+BaggingRegressor,17
+KNeighborsRegressor,0
+GradientBoostingRegressor,69
+AdaBoostRegressor,52
+BaggingRegressor,21
