@@ -1,4 +1,4 @@
-# Selección de Modelo de Machine Learning para predecir la Energía Potencial de Nanopartículas Metálicas a partir de sus características estructurales: 🌕🌟🌕
+# Selección de Modelo de Machine Learning para predecir la Energía Potencial de Nanopartículas Metálicas a partir de sus características estructurales: 
 
 ![imagen_intro](src/fig/Final-banner-2-1536x480.jpeg) 
 
