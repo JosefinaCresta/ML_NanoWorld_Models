@@ -1,12 +1,3 @@
-
-from sklearn.linear_model import LinearRegression, Ridge, Lasso, BayesianRidge, ElasticNet
-from sklearn.kernel_ridge import KernelRidge
-from sklearn.ensemble import BaggingRegressor, RandomForestRegressor,  GradientBoostingRegressor, AdaBoostRegressor
-from sklearn.tree import DecisionTreeRegressor, ExtraTreeRegressor
-from sklearn.svm import SVR
-from sklearn.neighbors import KNeighborsRegressor
-
-
 parameters_linear_regression = {'copy_X' : [True, False],
                                 'fit_intercept' : [True, False]
                                 }
@@ -102,33 +93,3 @@ parameters_SVR = {'C': [0.1, 1.0],
                 'kernel': ['rbf', 'poly', 'sigmoid'],
                 'shrinking': [True,False]
                 }   
-
-##########################################################################
-models = { 
-"LinearRegression" :  [LinearRegression(), parameters_linear_regression],
-
-"Ridge" : [Ridge(), parameters_Ridge],
-
-"Lasso" : [Lasso(), parameters_Lasso],
-
-"ElasticNet" : [ElasticNet(), parameters_ElasticNet],
-
-"KernelRidge" : [KernelRidge(), parameters_KernelRidge],
-
-"DecisionTreeRegressor" : [DecisionTreeRegressor(), parameters_DecisionTreeRegressor],
-
-"ExtraTreeRegressor" : [ExtraTreeRegressor(), parameters_ExtraTrees],
-
-"RandomForestRegressor" : [RandomForestRegressor(), parameters_RandomForestRegressor],
-
-"KNeighborsRegressor" : [KNeighborsRegressor(), parameters_KNeighborsRegressor], 
-
-"GradientBoostingRegressor" : [GradientBoostingRegressor(), parameters_GradientBoostingRegressor],
-
-"AdaBoostRegressor" : [AdaBoostRegressor(), parameters_AdaBoostRegressor],
-
-"BaggingRegressor" : [BaggingRegressor(), params_BaggingRegressor],
-
-"SVR" : [SVR(), parameters_SVR]
-
-}
